@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yxqZLRTevOx0AGi4JmG6JQEPqhcsacqqi9M6t/f7l8XBtXtpWkOSVaIvDRLi8oNpkpk2AxIqCK5KN8fNk225FA==",
+  "dgSpecHash": "RNLsGzBkDlNfsPqrccbqnT5AD/R9SyOp66FCBt5/XlFaj2Sqa60AnRtjbbz8/zPpyAnhAQ/cmvyeuf3TsZ5YTA==",
   "success": true,
-  "projectFilePath": "E:\\SocialMediaApp\\SocialMediaApp\\SocialMediaApp.csproj",
+  "projectFilePath": "E:\\SocialMediaApp-Backend\\SocialMediaApp\\SocialMediaApp\\SocialMediaApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.6\\microsoft.aspnetcore.authentication.jwtbearer.6.0.6.nupkg.sha512",

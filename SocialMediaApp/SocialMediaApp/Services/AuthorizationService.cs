@@ -43,15 +43,16 @@ namespace SocialMediaApp.Services
             var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var roleClaim = new Claim("role", "User");
-            var idClaim = new Claim("userId", user.ToString());
-            var infoClaim = new Claim("username", user.Email);
+            var idClaim = new Claim("userId", user.Id.ToString());
+            var infoClaim = new Claim("username", user.Username);
+            var emailClaim = new Claim("email", user.Email);
 
             var tokenDescriptior = new SecurityTokenDescriptor
             {
                 Issuer = "Backend",
                 Audience = "Frontend",
-                Subject = new ClaimsIdentity(new[] { roleClaim, idClaim, infoClaim }),
-                Expires = DateTime.Now.AddYears(1),
+                Subject = new ClaimsIdentity(new[] { roleClaim, idClaim, infoClaim, emailClaim }),
+                Expires = DateTime.Now.AddMinutes(60),
                 SigningCredentials = credentials
             };
 

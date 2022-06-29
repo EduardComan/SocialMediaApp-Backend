@@ -9,7 +9,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using UserDto = SocialMediaApp.Dto.UserDto;
 
 namespace SocialMediaApp.Controllers
 {
@@ -71,7 +70,6 @@ namespace SocialMediaApp.Controllers
 
         [HttpGet]
         [Route("all")]
-        [Authorize]
         public ActionResult<List<LightUserDto>> GetAll()
         {
             var users = _unitOfWork.Users.GetAll(includeDeleted: false).Select(u => new LightUserDto
