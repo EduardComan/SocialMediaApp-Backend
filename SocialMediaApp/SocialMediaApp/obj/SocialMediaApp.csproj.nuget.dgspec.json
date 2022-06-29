@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SocialMediaApp-Backend\\SocialMediaApp\\SocialMediaApp\\SocialMediaApp.csproj": {}
+    "D:\\Facultate\\Anul II\\Semestrul 2\\DAC\\ProiectFinal\\SocialMediaApp\\SocialMediaApp\\SocialMediaApp.csproj": {}
   },
   "projects": {
-    "E:\\SocialMediaApp-Backend\\SocialMediaApp\\SocialMediaApp\\SocialMediaApp.csproj": {
+    "D:\\Facultate\\Anul II\\Semestrul 2\\DAC\\ProiectFinal\\SocialMediaApp\\SocialMediaApp\\SocialMediaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SocialMediaApp-Backend\\SocialMediaApp\\SocialMediaApp\\SocialMediaApp.csproj",
+        "projectUniqueName": "D:\\Facultate\\Anul II\\Semestrul 2\\DAC\\ProiectFinal\\SocialMediaApp\\SocialMediaApp\\SocialMediaApp.csproj",
         "projectName": "SocialMediaApp",
-        "projectPath": "E:\\SocialMediaApp-Backend\\SocialMediaApp\\SocialMediaApp\\SocialMediaApp.csproj",
+        "projectPath": "D:\\Facultate\\Anul II\\Semestrul 2\\DAC\\ProiectFinal\\SocialMediaApp\\SocialMediaApp\\SocialMediaApp.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\SocialMediaApp-Backend\\SocialMediaApp\\SocialMediaApp\\obj\\",
+        "outputPath": "D:\\Facultate\\Anul II\\Semestrul 2\\DAC\\ProiectFinal\\SocialMediaApp\\SocialMediaApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -41,44 +41,44 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[5.6.3, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[6.3.1, )"
+              "version": "[5.6.3, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

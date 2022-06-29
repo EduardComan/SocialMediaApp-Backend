@@ -1,65 +1,143 @@
-﻿using SocialMediaApp.DataLayer.Entities;
-using SocialMediaApp.Services;
-using SocialMediaApp.Dto;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SocialMediaApp.DataLayer.Repositories;
+using SocialMediaApp.DataDB;
+using SocialMediaApp.DataDB.CRUDs;
+using SocialMediaApp.Dto;
+using SocialMediaApp.Model;
+using SocialMediaApp.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace SocialMediaApp.Controllers
 {
-    [Route("api/user")]
+    [Route("api/User")]
     [ApiController]
-    public class UserController : WebApiController
+    public class UserController : ControllerBase
     {
-        private readonly IUnitOfWork _unitOfWork;
-        private readonly ICustomerAuthService _authorization;
+        private UserCRUD userCRUD = new UserCRUD();
+        private IUserAuthorizationService _authorization;
 
-        public UserController(IUnitOfWork unitOfWork, ICustomerAuthService authorization)
+        public UserController(IUserAuthorizationService authorization)
         {
-            _unitOfWork = unitOfWork;
             _authorization = authorization;
         }
 
-        [HttpPost]
-        [Route("register")]
-        public async Task<ActionResult<bool>> Register([FromBody] UserDto request)
-        {
-            if (request == null)
-            {
-                return BadRequest(error: "Request must not be empty!");
-            }
-
-            var hashedPassword = _authorization.HashPassword(request.Password);
-
-            var user = new User()
-            {
-                Username = request.Username,
-                Email = request.Email,
-                Password = hashedPassword,
-            };
-
-            _unitOfWork.Users.Insert(user);
-            var saveResult = await _unitOfWork.SaveChangesAsync();
-
-            return Ok(saveResult);
-        }
-
+        /// <summary>
+        /// Verify introduced credentials in order to login User
+        /// </summary>
+        /// <remarks>
+        /// Get a jwt token
+        /// </remarks>
+        /// <response code="200">User</response> 
         [HttpPost]
         [Route("login")]
-        public ActionResult<ResponseLogin> Login([FromBody] RequestLogin request)
-        {
-            var user = _unitOfWork.Users.GetUserByEmail(request.Email);
-            if (user == null) return BadRequest("User not found!");
+        public ActionResult Login([FromBody] UserRequestModel user) => LoginUser(user);
 
-            var samePassword = _authorization.VerifyHashedPassword(user.Password, request.Password);
+        /// <summary>
+        /// Add new user to DB and verifying for username to be unique
+        /// </summary>
+        /// <response code="200">User</response>
+        [HttpPost]
+        [Route("register")]
+        public ActionResult Register([FromBody] UserRequestModel user) => AddDbUser(user);
+
+        /// <summary>
+        /// Get all user from DB
+        /// </summary>
+        /// /// <remarks>
+        /// Returns empty enumerable object if there are no users in DB
+        /// </remarks>
+        [HttpGet]
+        [Route("GetAll")]
+        public IEnumerable<User> GetAll() => userCRUD.GetAllUsers();
+
+        /// <summary>
+        /// Get user by id
+        /// </summary>
+        /// <remarks>
+        /// Get user by id
+        /// </remarks>
+        /// <param name="id">user id</param>
+        /// <returns>User</returns>
+        /// <response code="200">User</response>  
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [HttpGet("GetUserById/{id}")]
+        public ActionResult<User> GetUserById([FromRoute(Name = "id")] int id) => GetById(id);
+
+        /// <summary>
+        /// Get user by username
+        /// </summary>
+        /// <remarks>
+        /// Get user by username
+        /// </remarks>
+        /// <param name="username">user username</param>
+        /// <returns>User</returns>
+        /// <response code ="200">User</response>
+        ///[ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [HttpGet("GetUserByUsername/{username}")]
+        public ActionResult<User> GetUserByUsername([FromRoute(Name = "username")] string username) => GetByUsername(username);
+
+        /// <summary>
+        /// Get user by email
+        /// </summary>
+        /// <remarks>
+        /// Get user by email
+        /// </remarks>
+        /// <param name="email">user email</param>
+        /// <returns>User</returns>
+        /// <response code ="200">User</response>
+        ///[ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [HttpGet("GetUserByEmail/{email}")]
+        public ActionResult<User> GetUserByEmail([FromRoute(Name = "email")] string email) => GetByEmail(email);
+
+        /// <summary>
+        /// Update user
+        /// </summary>
+        /// <remarks>Update a user from database</remarks>
+        /// <param name="id"></param>
+        /// <returns>User</returns>
+        /// <response code = "200">User</response>
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [HttpPut("UpdateUser/{id}")]
+        public ActionResult UpdateUser([FromRoute] int id, [FromBody] User user) => UpdateGivenUser(id, user);
+
+        /// <summary>
+        /// Update user profile picture
+        /// </summary>
+        /// <remarks>Update profile pic link from User database</remarks>
+        /// <param name="id"></param>
+        /// <param name="link"></param>
+        /// <returns>User</returns>
+        /// <response code = "200">User</response>
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [HttpPut("ChangeProfilePic/{id}/{link}")]
+        public ActionResult ChangeProfilePic([FromRoute] int id, [FromRoute] string link) => ChangePic(id, link);
+
+        /// <summary>
+        /// Delete User from DB
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>User</returns>
+        /// <response code = "200">User</response>
+        [HttpDelete("DeleteUser/{id}")]
+        public void DeleteUser([FromRoute] int id, bool delete) => userCRUD.ChangeDeletedState(id, true);
+
+        private ActionResult LoginUser(UserRequestModel user)
+        {
+            var foundUser = userCRUD.GetUserByUsername(user.Username);
+            if (foundUser == null) return BadRequest("User not found!");
+
+            var samePassword = _authorization.VerifyHashedPassword(foundUser.Password, user.Password);
             if (!samePassword) return BadRequest("Invalid password!");
 
-            var user_jsonWebToken = _authorization.GetToken(user);
+            var user_jsonWebToken = _authorization.GetToken(foundUser);
 
             return Ok(new ResponseLogin
             {
@@ -67,57 +145,84 @@ namespace SocialMediaApp.Controllers
             });
         }
 
-
-        [HttpGet]
-        [Route("all")]
-        public ActionResult<List<LightUserDto>> GetAll()
+        private ActionResult AddDbUser(UserRequestModel user)
         {
-            var users = _unitOfWork.Users.GetAll(includeDeleted: false).Select(u => new LightUserDto
+            //TODO: validare pentru proprietatile obiectului
+            //TODO: mesaj si return 400 daca nu e valid, cu mesaj
+            if (!ModelState.IsValid)
             {
-                Username = u.Username,
-                Email = u.Email,
-            });
-            return Ok(users);
-        }
-
-        [HttpGet]
-        [Route("my-account")]
-        [Authorize(Roles = "User")]
-        public ActionResult<bool> MyAccount()
-        {
-            var userId = GetUserId();
-            if (userId == null) return Unauthorized();
-
-            var user = _unitOfWork.Users.GetUserByIdWithNotifications((Guid)userId);
-            //var notifications = user.Notifications
-            //    .Select(notif =>
-            //        new NotificationDto
-            //        {
-            //            Title = notif.Title,
-            //            Description = notif.Description
-            //        }
-            //    ).ToList();
-
-            return Ok(new UserDto
-            {
-                Username = user.Username,
-                Email = user.Email,
-            });
-        }
-
-        [HttpGet]
-        [Authorize(Roles = "Admin")]
-        [Route("delete/all")]
-        public async Task<ActionResult<List<User>>> DeleteAll()
-        {
-            var users = _unitOfWork.Users.GetAll().ToList();
-
-            foreach (var user in users)
-            {
-                _unitOfWork.Users.Delete(user);
+                return BadRequest(ModelState);
             }
-            await _unitOfWork.SaveChangesAsync();
-            return Ok(users);
+            else
+            {
+                if (userCRUD.GetUserByUsername(user.Username) != null)
+                {
+                    return BadRequest("Username already exists!");
+                }
+
+                var userToAdd = new User
+                {
+                    Password = _authorization.HashPassword(user.Password),
+                    Username = user.Username,
+                    Email = user.Email,
+                    Role = user.Role,
+                };
+
+                userCRUD.Add(userToAdd);
+                return Ok("User was added!");
+            }
+        }
+
+        private ActionResult GetById(int id)
+        {
+            var foundUser = userCRUD.GetByID(id);
+            if (foundUser == null)
+            {
+                return BadRequest("User was not found!");
+            }
+            return Ok(foundUser);
+        }
+
+        private ActionResult GetByUsername(string username)
+        {
+            var foundUser = userCRUD.GetUserByUsername(username);
+            if (foundUser == null)
+            {
+                return BadRequest("User with this username was not found!");
+            }
+            return Ok(foundUser);
+        }
+
+        private ActionResult GetByEmail(string email)
+        {
+            var foundUser = userCRUD.GetUsersByEMail(email);
+            if (foundUser == null)
+            {
+                return BadRequest("User with this email was not found!");
+            }
+            return Ok(foundUser);
+        }
+
+        private ActionResult UpdateGivenUser(int id, User user)
+        {
+            var foundUser = userCRUD.GetByID(id);
+            if (foundUser == null)
+            {
+                return BadRequest("User  was not found!");
+            }
+            userCRUD.UpdateByID(id, user);
+            return Ok("User updated!");
+        }
+
+        private ActionResult ChangePic(int id, string link)
+        {
+            var foundUser = userCRUD.GetByID(id);
+            if (foundUser == null)
+            {
+                return BadRequest("User  was not found!");
+            }
+            userCRUD.ChangeProfilePictureLink(id, link);
+            return Ok("User profile pic link was updated!");
         }
     }
 }

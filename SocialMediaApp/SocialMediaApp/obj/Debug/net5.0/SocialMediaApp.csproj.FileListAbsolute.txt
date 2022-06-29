@@ -1,0 +1,134 @@
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\appsettings.Development.json
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\appsettings.json
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.exe
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.deps.json
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.runtimeconfig.json
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.runtimeconfig.dev.json
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\ref\SocialMediaApp.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.pdb
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Humanizer.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.OpenApi.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.Data.SqlClient.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.csproj.AssemblyReference.cache
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.AssemblyInfoInputs.cache
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.AssemblyInfo.cs
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.csproj.CoreCompileInputs.cache
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.MvcApplicationPartsAssemblyInfo.cs
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.MvcApplicationPartsAssemblyInfo.cache
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\staticwebassets\SocialMediaApp.StaticWebAssets.Manifest.cache
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\staticwebassets\SocialMediaApp.StaticWebAssets.xml
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\scopedcss\bundle\SocialMediaApp.styles.css
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.RazorTargetAssemblyInfo.cache
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.csproj.CopyComplete
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\ref\SocialMediaApp.dll
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.pdb
+F:\Faculta\Anul2\DAC\Proiect DAC\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.genruntimeconfig.cache
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\appsettings.Development.json
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\appsettings.json
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.StaticWebAssets.xml
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.exe
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.deps.json
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.runtimeconfig.json
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.runtimeconfig.dev.json
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\ref\SocialMediaApp.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\SocialMediaApp.pdb
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Humanizer.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.csproj.AssemblyReference.cache
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.AssemblyInfoInputs.cache
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.AssemblyInfo.cs
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\scopedcss\bundle\SocialMediaApp.styles.css
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\staticwebassets\SocialMediaApp.StaticWebAssets.Manifest.cache
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.RazorTargetAssemblyInfo.cache
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.csproj.CopyComplete
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\ref\SocialMediaApp.dll
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.pdb
+D:\Facultate\Anul II\Semestrul 2\DAC\ProiectFinal\SocialMediaApp\SocialMediaApp\obj\Debug\net5.0\SocialMediaApp.genruntimeconfig.cache
